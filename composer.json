@@ -1,0 +1,28 @@
+{
+    "name": "mirdrack/denisse",
+    "description": "Data collector",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mirdrack",
+            "email": "mirdrack@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Denisse\\": "app/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "mirdrack/queue-listener": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Mirdrack/queue-listener"
+        }
+    ]
+}

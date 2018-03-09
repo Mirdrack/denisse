@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9497bce89c14eabac2fe35086c10c584",
+    "packages": [
+        {
+            "name": "mirdrack/queue-listener",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mirdrack/queue-listener.git",
+                "reference": "4c80d5c57d44722a9fcd83137e7de92a69ca98b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mirdrack/queue-listener/zipball/4c80d5c57d44722a9fcd83137e7de92a69ca98b8",
+                "reference": "4c80d5c57d44722a9fcd83137e7de92a69ca98b8",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mirdrack\\QueueListener\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mirdrack",
+                    "email": "mirdrack@gmail.com"
+                }
+            ],
+            "description": "Simple queue listener",
+            "support": {
+                "source": "https://github.com/Mirdrack/queue-listener/tree/master",
+                "issues": "https://github.com/Mirdrack/queue-listener/issues"
+            },
+            "time": "2018-03-09T06:07:52+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "mirdrack/queue-listener": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0.0"
+    },
+    "platform-dev": []
+}
